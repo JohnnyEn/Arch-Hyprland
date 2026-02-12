@@ -4,6 +4,15 @@
 # NOTE: These package check are only the essentials
 
 packages=(
+  alacritty
+  discord
+  vivaldi
+  element-desktop
+  gimp
+  remmina
+  steam
+  yazi
+  limine
   cliphist
   kvantum
   rofi-wayland
@@ -72,7 +81,7 @@ else
         echo "${WARN} The following packages are not installed and will be logged:"
         for pkg in "${missing[@]}"; do
             echo "${WARNING}$pkg${RESET}"
-            echo "$pkg" >> "$LOG" 
+            echo "$pkg" >> "$LOG"
         done
     fi
 
@@ -80,10 +89,9 @@ else
         echo "${WARN} The following local packages are missing from /usr/local/bin/ and will be logged:"
         for pkg1 in "${local_missing[@]}"; do
             echo "${WARNING}$pkg1${REST} is not installed. Can't find it in /usr/local/bin/"
-            echo "$pkg1" >> "$LOG" 
+            echo "$pkg1" >> "$LOG"
         done
     fi
 
     echo "${NOTE} Missing packages logged at $(date)" >> "$LOG"
 fi
-

@@ -2,10 +2,20 @@
 # 💫 https://github.com/JaKooLit 💫 #
 # base-devel + archlinux-keyring #
 
-base=( 
+base=(
   base-devel
   archlinux-keyring
   findutils
+  limine
+  alacritty
+  discord
+  gimp
+  micro
+  remmina
+  steam
+  vivaldi
+  yazi
+  element-desktop
 )
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
