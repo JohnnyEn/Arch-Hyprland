@@ -16,6 +16,7 @@ base=(
   vivaldi
   yazi
   element-desktop
+  wtype
 )
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
